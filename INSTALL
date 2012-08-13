@@ -1,0 +1,6 @@
+To install do the usual:
+ ./configure
+ make
+ make install
+
+dance.
