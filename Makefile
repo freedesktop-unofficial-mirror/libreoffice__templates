@@ -10,7 +10,7 @@
 SRCDIR:=$(firstword $(dir $(MAKEFILE_LIST)))
 include $(SRCDIR)config.mk
 
-presentationdir:=$(templatedir)/presnt
+presentationdir:=$(DESTDIR)$(templatedir)/presnt
 
 .PHONY: all install clean mostlyclean TAGS info dvi check dist uninstall
 clean mostlyclean TAGS info dvi check: all
