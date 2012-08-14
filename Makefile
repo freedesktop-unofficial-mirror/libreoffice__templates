@@ -29,6 +29,6 @@ uninstall:
 	@false
 
 distclean:
-	rm $(SRCDIR)config.mk
+	rm -f $(SRCDIR)config.mk $(SRCDIR)config.log $(SRCDIR)config.status
 
 # vim: set noet sw=4 ts=4:
