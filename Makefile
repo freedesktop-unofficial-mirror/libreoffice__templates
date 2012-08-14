@@ -22,7 +22,7 @@ all:
 
 install:
 	install -d $(presentationdir)
-	install -t $(presentationdir) $(wildcard $(SRCDIR)src/presnt/*)
+	install -m 644 -t $(presentationdir) $(wildcard $(SRCDIR)src/presnt/*)
 
 uninstall:
 	$(info Sorry, not implemented.)
